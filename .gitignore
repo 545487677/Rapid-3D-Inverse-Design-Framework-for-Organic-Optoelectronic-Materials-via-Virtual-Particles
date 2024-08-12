@@ -160,3 +160,31 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Ignore all content in the directory
+Detector_Finetune/Detector_Finetune_Data/*
+
+# But keep the directory itself
+!Detector_Finetune/Detector_Finetune_Data/
+
+Detector_Finetune/weight/*
+!Detector_Finetune/weight/
+
+Generator/.vscode/
+
+
+Generator/Baseline_Generated/*
+!Generator/Baseline_Generated/
+
+Generator/OPV_DATA_4_BENCH/*
+!Generator/OPV_DATA_4_BENCH/
+
+Generator/OPV_DATA_4_SCREENING/*
+!Generator/OPV_DATA_4_SCREENING/
+
+Generator/Specific_General_DB/*
+!Generator/Specific_General_DB/
+
+
+Generator/weight/*
+!Generator/weight/
