@@ -2,6 +2,7 @@
 
 ## Overview
 
+
 Organic optoelectronic devices are increasingly important in clean electricity production and information display due to their flexibility, foldability, low-cost, and environmental friendliness. Their performance relies on the rich π-electron photoelectric active materials with conjugated fused-ring structures. However, discovering new superior materials remains a critical challenge in these fields.
 We introduce **O<sup>2</sup>-GEN**, a novel framework for rapidly designing complex conjugated molecules by high-throughput inverse design. Public and expert-curated datasets of 2 million organic optoelectronic molecules are leveraged for 3D pretraining to capture unique chemical spaces. Using virtual particle sampling, our generator achieves nearly 100% validity and novelty, generating molecules 53 times faster than Diffusion and Flow models and improving ring structure distribution by 161.43%, while also allowing molecular customization. Our screening detector identifies superior molecules with near Density Functional Theory accuracy. Experiments show the framework efficiently designs high-performance polycyclic molecules, providing a powerful tool for accelerating the discovery of new materials.
 
