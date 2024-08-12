@@ -35,3 +35,9 @@ Detector_Finetune：The code for the detector is provided in this folder.
 To reproduce the results, please follow the above data and code links.
 
 Also, please refer to the README.md files in the Detector_Finetune, Generator, and Pretraining_Backbone folders for more details.
+
+[Detector_Finetune/README.md](./Detector_Finetune/README.md)
+
+[Generator/README.md](./Generator/README.md)
+
+[Pretraining_Backbone/README.md](./Pretraining_Backbone/README.md)
