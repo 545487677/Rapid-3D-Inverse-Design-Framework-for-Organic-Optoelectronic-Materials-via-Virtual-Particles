@@ -15,11 +15,22 @@ Due to the large size of the data, this repository only displays part of the cod
 
 The data can be accessed through Zenodo at [https://doi.org/10.5281/zenodo.11063203](https://doi.org/10.5281/zenodo.11063203) and Figshare at [https://doi.org/10.6084/m9.figshare.25687290.v1](https://doi.org/10.6084/m9.figshare.25687290.v1). The data screened from the case study can be accessed through Figshare at [https://doi.org/10.6084/m9.figshare.26144065.v1](https://doi.org/10.6084/m9.figshare.26144065.v1).
 
-The code and corresponding weights for our 3D pretraining backbone are available at Zenodo: [https://doi.org/10.5281/zenodo.11063109](https://doi.org/10.5281/zenodo.11063109). The code and weights for our detector can also be accessed via Zenodo at [https://doi.org/10.5281/zenodo.11063203](https://doi.org/10.5281/zenodo.11063203). Additionally, the generator’s code and associated weights can be accessed via Figshare: [https://doi.org/10.6084/m9.figshare.25687290.v1](https://doi.org/10.6084/m9.figshare.25687290.v1). These resources are provided to enable replication of the results presented in this study.
+The code and corresponding weights for our 3D pretraining backbone are available at Zenodo: [https://doi.org/10.5281/zenodo.11063109](https://doi.org/10.5281/zenodo.11063109). The code and weights for our detector can also be accessed via Zenodo at [https://doi.org/10.5281/zenodo.11063203](https://doi.org/10.5281/zenodo.11063203). Additionally, the generator’s code and associated weights can be accessed via Figshare: [https://doi.org/10.6084/m9.figshare.25687290.v1](https://doi.org/10.6084/m9.figshare.25687290.v1). **If you encounter a 403 Forbidden error when accessing Figshare, you can alternatively visit the following links:**
+
+- [https://doi.org/10.6084/m9.figshare.25687290.v1](https://doi.org/10.6084/m9.figshare.25687290.v1) → [Google Drive Link](https://drive.google.com/drive/folders/100RbKYhNM3aarLCGoLJjZ9O0tj75-MxV)
+- [https://doi.org/10.6084/m9.figshare.26144065.v1](https://doi.org/10.6084/m9.figshare.26144065.v1) → [Google Drive Link](https://drive.google.com/drive/folders/1tTQ3YO_84GhhRV0pUFECYVsQIDA4WCeX?usp=sharing)
+
+These resources are provided to enable replication of the results presented in this study.
 
 ## Reimplementation
 
 The code is implemented in PyTorch. The code is organized into three main parts: Detector_Finetune, Generator, and Pretraining_Backbone.
+
+Pretraining_Backbone：The code for the 3D pretraining backbone is provided in this folder.
+
+Generator：The code for the generator is provided in this folder.
+
+Detector_Finetune：The code for the detector is provided in this folder.
 
 To reproduce the results, please follow the above data and code links.
 
